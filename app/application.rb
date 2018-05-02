@@ -23,6 +23,8 @@ class Application
       search_term = req.params["item"]
       @@items.each do |item|
         if search_term == item
+          @@cart << item
+        end
       end
     else
       resp.write "Path Not Found"
