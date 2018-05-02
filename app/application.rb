@@ -29,7 +29,7 @@ class Application
         if search_term == item
           @@cart << item
         end
-          resp.write "We don't have that item"
+        resp.write "We don't have that item"
       end
     else
       resp.write "Path Not Found"
