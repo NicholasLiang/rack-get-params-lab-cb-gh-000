@@ -25,6 +25,7 @@ class Application
         if search_term == item
           @@cart << item
         else
+          
         end
       end
     else
