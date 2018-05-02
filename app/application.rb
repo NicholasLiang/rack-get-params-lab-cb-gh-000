@@ -28,7 +28,6 @@ class Application
       @@items.each do |item|
         if search_term == item
           @@cart << item
-          return
         end
         resp.write "We don't have that item"
       end
