@@ -49,5 +49,7 @@ class Application
     if @@item.include?(add_item)
       @@cart << add_item
       return "added #{add_item}\n"
+    else
+      
   end
 end
