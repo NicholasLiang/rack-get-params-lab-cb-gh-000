@@ -46,4 +46,6 @@ class Application
   end
   
   def handle_add(add_item)
+    
+  end
 end
