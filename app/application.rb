@@ -25,7 +25,7 @@ class Application
         if search_term == item
           @@cart << item
         else
-          resp.write ""We don't have that item""
+          resp.write "We don't have that item"
         end
       end
     else
