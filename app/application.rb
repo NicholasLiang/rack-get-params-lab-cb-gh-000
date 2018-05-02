@@ -48,6 +48,6 @@ class Application
   def handle_add(add_item)
     if @@item.include?(add_item)
       
-      return "added #{add_item"
+      return "added #{add_item}\n"
   end
 end
