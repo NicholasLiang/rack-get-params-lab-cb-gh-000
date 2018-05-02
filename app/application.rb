@@ -50,6 +50,7 @@ class Application
       @@cart << add_item
       return "added #{add_item}\n"
     else
-      
+      return ""
+    end
   end
 end
