@@ -47,5 +47,6 @@ class Application
   
   def handle_add(add_item)
     if @@item.include?(add_item)
+      return 
   end
 end
