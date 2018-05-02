@@ -22,7 +22,7 @@ class Application
     elsif req.path.match(/add/)
       search_term = req.params["item"]
       @@items.each do |item|
-        resp.write "#{item}\n"
+        if search_term == item
       end
     else
       resp.write "Path Not Found"
