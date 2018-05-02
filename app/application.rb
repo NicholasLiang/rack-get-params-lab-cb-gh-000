@@ -24,6 +24,7 @@ class Application
       @@items.each do |item|
         if search_term == item
           @@cart << item
+        else
         end
       end
     else
