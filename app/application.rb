@@ -28,9 +28,8 @@ class Application
       @@items.each do |item|
         if search_term == item
           @@cart << item
-        else
-          resp.write "We don't have that item"
         end
+          resp.write "We don't have that item"
       end
     else
       resp.write "Path Not Found"
